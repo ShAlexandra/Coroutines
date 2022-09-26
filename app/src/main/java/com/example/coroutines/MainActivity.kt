@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.buttonLoad.setOnClickListener {
-            /*lifecycleScope.launch {
+            lifecycleScope.launch {
                 loadData()
-            }*/
-            loadWithoutCoroutine()
+            }
+            //loadWithoutCoroutine()
         }
 
     }
